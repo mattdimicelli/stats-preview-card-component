@@ -16,11 +16,11 @@
   </style>
 </head>
 <body class="bg-very-dark-blue-for-bg flex flex-col justify-center h-screen pt-14 px-4 lg:p-40">
-    <div class="bg-dark-desaturated-blue-for-card-bg flex-auto flex flex-col text-center -mb-8 lg:flex-row  ">
+    <main class="bg-dark-desaturated-blue-for-card-bg flex-auto flex flex-col text-center -mb-8 lg:flex-row  ">
       <div class="bg-soft-violet rounded-lg lg:order-1 lg:flex lg:w-1/2">  
         <!-- this div is used to apply the violet accent to the images -->
-        <img class="filter grayscale opacity-50 rounded-lg h-48 w-full object-cover object-top lg:hidden" src="./images/image-header-mobile.jpg">
-        <img class="hidden filter grayscale opacity-50 rounded-lg lg:block lg:object-cover lg:w-full" src="./images/image-header-desktop.jpg">
+        <img class="filter grayscale opacity-50 rounded-lg h-48 w-full object-cover object-top lg:hidden" src="./images/image-header-mobile.jpg" alt="three ladies sitting at table and working">
+        <img class="hidden filter grayscale opacity-50 rounded-lg lg:block lg:object-cover lg:w-full" src="./images/image-header-desktop.jpg" alt="three ladies sitting at table and working">
       </div>
       
       <div class="flex flex-col justify-evenly flex-auto px-5 space-y-3 font-Inter lg:w-1/2 lg:px-16 lg:text-left">
@@ -31,27 +31,26 @@
         analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.
         </p>
-        <div class="lg:flex lg:w-full lg:justify-between">
-          <div>
+        <section class="lg:flex lg:w-full lg:justify-between">
+          <section>
             <h2 class="stats">10k+</h2>
-            <h3 class="stat-desc">companies
-          </h3>
-          </div>
-          <div>
+            <h3 class="stat-desc">companies</h3>
+          </section>
+          <section>
             <h2 class="stats">314</h2>
             <h3 class="stat-desc">templates</h3>
-          </div> 
-          <div>
+          </section> 
+          <section>
             <h2 class="stats uppercase">12m+</h2>
             <h3 class="mb-5 stat-desc">queries</h3>
-          </div>  
-        </div>
+          </section>  
+        </section>
       </div>
-    </div> 
-  <div class="attribution bg-very-dark-blue-for-bg mt-14">
+    </main> 
+  <footer class="attribution bg-very-dark-blue-for-bg mt-14">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a  href="https://github.com/mattdimicelli">Matt Di Micelli</a>.
-  </div>
+  </footer>
   <script src="bundle.js"></script>
 </body>
 </html>
