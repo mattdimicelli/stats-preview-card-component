@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .stats {
+        @apply text-white-heading-and-stats text-xl font-bold;
+    }
+    .stat-desc {
+        @apply text-white-stat-headings text-xs tracking-wide uppercase font-Lexend-Deca;
+    }
+}
