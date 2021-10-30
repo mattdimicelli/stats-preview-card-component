@@ -26,10 +26,10 @@ const config = {
   }, 
   devServer: {
     static: [
-      {
-        directory: path.join(__dirname, 'images'),
-        publicPath: '/images',
-      },
+      // {
+      //   directory: path.join(__dirname, 'images'),
+      //   publicPath: '/images',
+      // },
       {
         directory: path.join(__dirname, 'dist'),
       }
